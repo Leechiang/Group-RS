@@ -1,6 +1,6 @@
 ---
 title: "Shanghai Carbon sink"
-author: "JIaming et al." 
+author: "Jiaming et al." 
 date: "2024/02/27 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -12,12 +12,11 @@ output:
 ---
 
 # What is 'Carbon sink'
-
 Carbon sinks are natural or artificial environments that absorb and store carbon.  By absorbing greenhouse gases like carbon dioxide, these places or systems contribute to the reduction of carbon levels in the atmosphere and the mitigation of climate change.
 ![](https://niwa.co.nz/sites/niwa.co.nz/files/sites/default/files/images/carbon-cycle4d.png)
 ---
 
-# Shanghai policy on forest
+# Shanghai policy
 
 ---
 
