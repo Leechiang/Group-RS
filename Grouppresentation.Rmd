@@ -20,33 +20,13 @@ Carbon sinks are natural or artificial environments that absorb and store carbon
 
 ---
 
-# Hello Ninja
+# Budget Breakdown
 
-As a presentation ninja, you certainly should not be satisfied by the "Hello World" example. You need to understand more about two things:
-
-1. The [remark.js](https://remarkjs.com) library;
-
-1. The **xaringan** package;
-
-Basically **xaringan** injected the chakra of R Markdown (minus Pandoc) into **remark.js**. The slides are rendered by remark.js in the web browser, and the Markdown source needed by remark.js is generated from R Markdown (**knitr**).
 
 ---
 
-# remark.js
+# Timeline
 
-You can see an introduction of remark.js from [its homepage](https://remarkjs.com). You should read the [remark.js Wiki](https://github.com/gnab/remark/wiki) at least once to know how to
-
-- create a new slide (Markdown syntax<sup>*</sup> and slide properties);
-
-- format a slide (e.g. text alignment);
-
-- configure the slideshow;
-
-- and use the presentation (keyboard shortcuts).
-
-It is important to be familiar with remark.js before you can understand the options in **xaringan**.
-
-.footnote[[*] It is different with Pandoc's Markdown! It is limited but should be enough for presentation purposes. Come on... You do not need a slide for the Table of Contents! Well, the Markdown support in remark.js [may be improved](https://github.com/gnab/remark/issues/142) in the future.]
 
 ---
 background-image: url(`r xaringan:::karl`)
