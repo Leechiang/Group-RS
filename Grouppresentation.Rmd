@@ -20,11 +20,12 @@ output:
 
 * Help mitigate climate change by absorbing greenhouse gases like carbon dioxide.
 
-```{r echo=FALSE, out.width='50%', fig.align='center'}
+```{r echo=FALSE, out.width='80%', fig.align='center'}
 
-knitr::include_graphics('carbon-cycle.jpg')
+knitr::include_graphics('d41586-018-05842-2_15982792.jpg')
 
 ```
+
 ---
 
 # Shanghai policy
