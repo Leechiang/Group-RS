@@ -10,10 +10,21 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+# Context
+
+
+---
 
 # What is 'Carbon sink'
-Carbon sinks are natural or artificial environments that absorb and store carbon.  By absorbing greenhouse gases like carbon dioxide, these places or systems contribute to the reduction of carbon levels in the atmosphere and the mitigation of climate change.
-![](https://niwa.co.nz/sites/niwa.co.nz/files/sites/default/files/images/carbon-cycle4d.png)
+* Natural or artificial environments that absorb and store carbon.
+
+* Help mitigate climate change by absorbing greenhouse gases like carbon dioxide.
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+
+knitr::include_graphics('carbon-cycle.jpg')
+
+```
 ---
 
 # Shanghai policy
