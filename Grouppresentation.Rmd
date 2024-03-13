@@ -4,15 +4,119 @@ author: "Jiaming et al."
 date: "2024/02/27 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    xaringanExtra::moon_reader_inception:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
-# Context
+```{r setup, include=FALSE,echo=FALSE}
+options(htmltools.dir.version = FALSE)
+library(dplyr)
+library(readr)
+library(readxl)
+library(knitr)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(primary_color = "#0D5E74", 
+                 # secondary_color = "#2881C6",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+)
+```
 
 
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+library(countdown)
+library(xaringan)
+library(xaringanExtra)
+hook_source <- knitr::knit_hooks$get('source')
+knitr::knit_hooks$set(source = function(x, options) {
+  x <- stringr::str_replace(x, "^[[:blank:]]?([^*].+?)[[:blank:]]*#<<[[:blank:]]*$", "*\\1")
+  hook_source(x, options)
+})
+xaringanExtra::use_broadcast()
+xaringanExtra::use_freezeframe()
+xaringanExtra::use_scribble()
+#xaringanExtra::use_slide_tone()
+xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE)
+xaringanExtra::use_freezeframe()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
+xaringanExtra::use_editable(expires = 1)
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         
+  mute_unhighlighted_code = TRUE  
+)
+```
+# Problem statement
+.panelset[
+.panel[.panel-name[Insufficient green and low-carbon development]
+
+- The demand for energy for high-quality economic development remains high, with the industrial, transport and construction sectors all facing continued development needs.
+
+- Although Shanghai's energy consumption as a percentage of GDP continues to decline, coal still accounts for the largest share of the city's energy mix.
+
+- As the most industrialised city in China, Shanghai shoulders the responsibility of leading the way in carbon emission reduction and carbon neutrality.
+
+]
+
+.panel[.panel-name[Serious underscaling of ecological space]
+- The city's forest cover reached 15 per cent in 2015, but it is still far from the global urban forest cover of 40-60 per cent and below the national average of 22 per cent.
+
+- There is a serious lack of urban open space, with 7.6 square metres of parkland per capita, a large gap with national standards.
+
+- Urban sprawl has led to fragmentation and reduction of green space, with significant loss of green space and expansion of built-up area
+
+]
+
+.panel[.panel-name[Frequency of climate extremes]
+- The risk of natural disasters continues unabated. More than 90 per cent of the natural disasters that hit Shanghai are meteorological.
+
+- According to meteorological forecasts, the number of days of heavy precipitation and its intensity are on the increase for the next 20 years
+
+- Continuing sea level rise and upstream flood pressure are posing greater challenges to Shanghai's urban resilience to flooding.
+]
+]
+---
+# Policy
+.panelset[
+.panel[.panel-name[Internationally]
+- The Paris Agreement 
+
+- Goal: ‘to limit the temperature increase to 1.5°C above pre-industrial levels’
+
+- How: Early achievement of carbon peaking and subsequent carbon neutrality
+
+  - Carbon neutrality targets (taking into account different national circumstances)
+  
+  - Emphasising that the 2030 goal of nationally determined contributions (NDCs) is consistent with the goal of the Paris Agreement
+]
+
+.panel[.panel-name[Nationally]
+- National Development and Reform Commission
+
+- ‘Peak carbon dioxide emissions by 2030 and work towards carbon neutrality by 2060’
+
+- By 2030:
+]
+
+.panel[.panel-name[Locally]
+- Shanghai Municipal People's Government: ‘Shanghai Peak Carbon Implementation Programme’
+
+- Peak carbon emissions by 2030
+
+- In addition to meeting national targets, reduce carbon dioxide emissions per unit of GDP by 70 % below 2005 levels by 2030
+
+- Other: The forest cover strives to reach 21 per cent and the forest stock reaches about 11 million cubic metres
+]
+]
 ---
 
 # What is 'Carbon sink'

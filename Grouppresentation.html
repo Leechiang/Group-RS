@@ -4,25 +4,55 @@
     <title>Shanghai Carbon sink</title>
     <meta charset="utf-8" />
     <meta name="author" content="Jiaming et al." />
-    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
-    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-    <script src="libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
-    <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-    <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
-    <script src="libs/leaflet-1.3.1/leaflet.js"></script>
-    <link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
-    <script src="libs/proj4-2.6.2/proj4.min.js"></script>
-    <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-    <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-    <script src="libs/leaflet-binding-2.2.0/leaflet.js"></script>
-    <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-    <script src="libs/datatables-binding-0.32/datatables.js"></script>
-    <link href="libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
-    <link href="libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
-    <script src="libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
-    <link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
-    <script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <script src="libs/js-cookie/js.cookie.js"></script>
+    <script src="libs/peerjs/peerjs.min.js"></script>
+    <script src="libs/tiny.toast/toast.min.js"></script>
+    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
+    <script src="libs/freezeframe/freezeframe.min.js"></script>
+    <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
+    <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":true,"warnings":true}</script>
+    <script src="libs/fabric/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
+    <script src="libs/mark.js/mark.min.js"></script>
+    <link href="libs/xaringanExtra-search/search.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-search/search.js"></script>
+    <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":true,"autoSearch":false}) })</script>
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xebabd4691fc40a7864cdad9562a41fb","expires":1}</script>
+    <script src="libs/himalaya/himalaya.js"></script>
+    <link href="libs/editable/editable.css" rel="stylesheet" />
+    <script src="libs/editable/editable.js"></script>
+    <script src="libs/xaringanExtra_fit-screen/fit-screen.js"></script>
+    <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet/leaflet.js"></script>
+    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+    <script src="libs/proj4/proj4.min.js"></script>
+    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+    <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet-binding/leaflet.js"></script>
+    <link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="libs/datatables-binding/datatables.js"></script>
+    <link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+    <link href="libs/crosstalk/css/crosstalk.min.css" rel="stylesheet" />
+    <script src="libs/crosstalk/js/crosstalk.min.js"></script>
   </head>
   <body>
     <textarea id="source">
@@ -35,14 +65,79 @@ class: center, middle, inverse, title-slide
 ### Jiaming et al.
 ]
 .date[
-### 2024/02/27 (updated: 2024-03-10)
+### 2024/02/27 (updated: 2024-03-13)
 ]
 
 ---
 
-# Context
 
 
+
+
+
+
+# Problem statement
+.panelset[
+.panel[.panel-name[Insufficient green and low-carbon development]
+
+- The demand for energy for high-quality economic development remains high, with the industrial, transport and construction sectors all facing continued development needs.
+
+- Although Shanghai's energy consumption as a percentage of GDP continues to decline, coal still accounts for the largest share of the city's energy mix.
+
+- As the most industrialised city in China, Shanghai shoulders the responsibility of leading the way in carbon emission reduction and carbon neutrality.
+
+]
+
+.panel[.panel-name[Serious underscaling of ecological space]
+- The city's forest cover reached 15 per cent in 2015, but it is still far from the global urban forest cover of 40-60 per cent and below the national average of 22 per cent.
+
+- There is a serious lack of urban open space, with 7.6 square metres of parkland per capita, a large gap with national standards.
+
+- Urban sprawl has led to fragmentation and reduction of green space, with significant loss of green space and expansion of built-up area
+
+]
+
+.panel[.panel-name[Frequency of climate extremes]
+- The risk of natural disasters continues unabated. More than 90 per cent of the natural disasters that hit Shanghai are meteorological.
+
+- According to meteorological forecasts, the number of days of heavy precipitation and its intensity are on the increase for the next 20 years
+
+- Continuing sea level rise and upstream flood pressure are posing greater challenges to Shanghai's urban resilience to flooding.
+]
+]
+---
+# Policy
+.panelset[
+.panel[.panel-name[Internationally]
+- The Paris Agreement 
+
+- Goal: ‘to limit the temperature increase to 1.5°C above pre-industrial levels’
+
+- How: Early achievement of carbon peaking and subsequent carbon neutrality
+
+  - Carbon neutrality targets (taking into account different national circumstances)
+  
+  - Emphasising that the 2030 goal of nationally determined contributions (NDCs) is consistent with the goal of the Paris Agreement
+]
+
+.panel[.panel-name[Nationally]
+- National Development and Reform Commission
+
+- ‘Peak carbon dioxide emissions by 2030 and work towards carbon neutrality by 2060’
+
+- By 2030:
+]
+
+.panel[.panel-name[Locally]
+- Shanghai Municipal People's Government: ‘Shanghai Peak Carbon Implementation Programme’
+
+- Peak carbon emissions by 2030
+
+- In addition to meeting national targets, reduce carbon dioxide emissions per unit of GDP by 70 % below 2005 levels by 2030
+
+- Other: The forest cover strives to reach 21 per cent and the forest stock reaches about 11 million cubic metres
+]
+]
 ---
 
 # What is 'Carbon sink'
@@ -277,8 +372,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-97499fbdbd9da16261a4" style="width:100%;height:432px;"></div>
-<script type="application/json" data-for="htmlwidget-97499fbdbd9da16261a4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-dbd05b61e294fc54d471" style="width:100%;height:432px;"></div>
+<script type="application/json" data-for="htmlwidget-dbd05b61e294fc54d471">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -290,8 +385,8 @@ DT::datatable(
 )
 ```
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ff8c7193166a16e440ff" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-ff8c7193166a16e440ff">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-54e93a63746c544b2590" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-54e93a63746c544b2590">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
