@@ -31,7 +31,7 @@
     <script src="libs/tile-view/tile-view.js"></script>
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x2002115905d4292a305bbebb3505aeb","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"a0dae5b9e153464bb38efbe20ce571d5","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
     <script src="libs/editable/editable.js"></script>
@@ -86,21 +86,33 @@ class: center, middle, inverse, title-slide
 - While Shanghai's energy consumption as a percentage of GDP continues to decline, coal still accounts for the largest share of the energy mix.
 
 .pull-left[
-&lt;img src="img/Picture1.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /&gt;
+&lt;img src="img/1-s2.0-S0048969716322008-gr2.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+.pull-right[
+&lt;img src="img/1-s2.0-S0048969716322008-gr4.jpg" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
 ]
 ]
 
 .panel[.panel-name[Ecological space]
+.pull-left[
 - The forest coverage rate reached 15% in 2015, but it is still far from the global urban forest coverage rate of 40%- 60%, and lower than the national average of 22%.
 
 - Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
-
+]
+.pull-right[
+&lt;img src="img/1990—2015年上海市基于遥感的土地利用格局.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
 ]
 
 .panel[.panel-name[Extreme climates]
+.pull-left[
 - Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
 
 - Continuing sea level rise and upstream flood pressure are posing greater challenges to urban resilience to flooding.
+]
+.pull-right[
+&lt;img src="img/11069_2021_4978_Fig6_HTML.jpg" width="60%" style="display: block; margin: auto;" /&gt;
+]
 ]
 ]
 ---
@@ -425,8 +437,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-72b7ee376b7eb9365eea" style="width:100%;height:432px;"></div>
-<script type="application/json" data-for="htmlwidget-72b7ee376b7eb9365eea">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-b2b603514b0ec3e28325" style="width:100%;height:432px;"></div>
+<script type="application/json" data-for="htmlwidget-b2b603514b0ec3e28325">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -438,8 +450,8 @@ DT::datatable(
 )
 ```
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4f05740f7c1051823e38" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-4f05740f7c1051823e38">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-b57ac5cb85cb97a96de8" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-b57ac5cb85cb97a96de8">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 

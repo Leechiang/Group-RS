@@ -66,22 +66,40 @@ xaringanExtra::use_extra_styles(
 
 .pull-left[
 ```{r echo=FALSE, out.width='80%', fig.align='left'}
-knitr::include_graphics("img/Picture1.jpg")
+knitr::include_graphics("img/1-s2.0-S0048969716322008-gr2.jpg")
+```
+]
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='left'}
+knitr::include_graphics("img/1-s2.0-S0048969716322008-gr4.jpg")
 ```
 ]
 ]
 
 .panel[.panel-name[Ecological space]
+.pull-left[
 - The forest coverage rate reached 15% in 2015, but it is still far from the global urban forest coverage rate of 40%- 60%, and lower than the national average of 22%.
 
 - Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
-
+]
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("img/1990—2015年上海市基于遥感的土地利用格局.jpg")
+```
+]
 ]
 
 .panel[.panel-name[Extreme climates]
+.pull-left[
 - Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
 
 - Continuing sea level rise and upstream flood pressure are posing greater challenges to urban resilience to flooding.
+]
+.pull-right[
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics("img/11069_2021_4978_Fig6_HTML.jpg")
+```
+]
 ]
 ]
 ---
