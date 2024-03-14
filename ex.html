@@ -1,42 +1,12 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Shanghai Carbon sink</title>
+    <title>Presentation Ninja</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Jiaming et al." />
+    <meta name="author" content="Yihui Xie" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
-    <script src="libs/js-cookie/js.cookie.js"></script>
-    <script src="libs/peerjs/peerjs.min.js"></script>
-    <script src="libs/tiny.toast/toast.min.js"></script>
-    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
-    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
-    <script src="libs/freezeframe/freezeframe.min.js"></script>
-    <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
-    <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":true,"warnings":true}</script>
-    <script src="libs/fabric/fabric.min.js"></script>
-    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
-    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
-    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
-    <script src="libs/mark.js/mark.min.js"></script>
-    <link href="libs/xaringanExtra-search/search.css" rel="stylesheet" />
-    <script src="libs/xaringanExtra-search/search.js"></script>
-    <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":true,"autoSearch":false}) })</script>
-    <script src="libs/clipboard/clipboard.min.js"></script>
-    <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
-    <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
-    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
-    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
-    <script src="libs/tile-view/tile-view.js"></script>
-    <link href="libs/panelset/panelset.css" rel="stylesheet" />
-    <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xa5e8c431d56424fa7037923b70721c8","expires":1}</script>
-    <script src="libs/himalaya/himalaya.js"></script>
-    <link href="libs/editable/editable.css" rel="stylesheet" />
-    <script src="libs/editable/editable.js"></script>
-    <script src="libs/xaringanExtra_fit-screen/fit-screen.js"></script>
-    <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
     <script src="libs/htmlwidgets/htmlwidgets.js"></script>
     <script src="libs/jquery/jquery-3.6.0.min.js"></script>
     <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
@@ -59,160 +29,111 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Shanghai Carbon sink
+# Presentation Ninja
+]
+.subtitle[
+## ⚔<br/>with xaringan
 ]
 .author[
-### Jiaming et al.
+### Yihui Xie
+]
+.institute[
+### RStudio, PBC
 ]
 .date[
-### 2024/02/27 (updated: 2024-03-14)
+### 2016/12/12 (updated: 2024-03-10)
 ]
 
 ---
 
 
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
 
 
+???
 
-
-# Problem statement
-.panelset[
-.panel[.panel-name[Low-carbon development]
-
-- Energy demand remains high, with continued development needs in the industrial, transport and construction sectors.
-
-- While Shanghai's energy consumption as a percentage of GDP continues to decline, coal still accounts for the largest share of the energy mix.
-
-.pull-left[
-&lt;img src="img/Picture1.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /&gt;
-]
-]
-
-.panel[.panel-name[Ecological space]
-- The forest coverage rate reached 15% in 2015, but it is still far from the global urban forest coverage rate of 40%- 60%, and lower than the national average of 22%.
-
-- Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
-
-]
-
-.panel[.panel-name[Extreme climates]
-- Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
-
-- Continuing sea level rise and upstream flood pressure are posing greater challenges to urban resilience to flooding.
-]
-]
----
-# Policy
-.panelset[
-.panel[.panel-name[Internationally]
-- The Paris Agreement 
-
-- Goal: ‘to limit the temperature increase to 1.5°C above pre-industrial levels’
-
-- How: Early achievement of carbon peaking and subsequent carbon neutrality
-
-  - Carbon neutrality targets (taking into account different national circumstances)
-  
-  - Emphasising that the 2030 goal of nationally determined contributions (NDCs) is consistent with the goal of the Paris Agreement
-]
-
-.panel[.panel-name[Nationally]
-- National Development and Reform Commission
-
-- ‘Peak carbon dioxide emissions by 2030 and work towards carbon neutrality by 2060’
-
-- By 2030:
-
-&lt;img src="img/屏幕截图 2024-03-14 095558.jpg" width="150%" style="display: block; margin: auto;" /&gt;
-
-]
-
-.panel[.panel-name[Locally]
-- Shanghai Municipal People's Government: ‘Shanghai Peak Carbon Implementation Programme’
-
-- Peak carbon emissions by 2030
-
-- In addition to meeting national targets, reduce carbon dioxide emissions per unit of GDP by 70 % below 2005 levels by 2030
-
-- Other: The forest cover strives to reach 21 per cent and the forest stock reaches about 11 million cubic metres
-]
-]
----
-# Carbon sink
-.panelset[
-.panel[.panel-name[What]
-- Natural or artificial environments that absorb and store carbon. 
-
-- Help mitigate climate change by absorbing greenhouse gases like carbon dioxide.
-
-&lt;img src="img/d41586-018-05842-2_15982792.jpg" width="70%" style="display: block; margin: auto;" /&gt;
-]
-
-.panel[.panel-name[Why]
-- Natural carbon sinks crucial for achieving carbon neutrality in China.
-
-- Green spaces serve as the primary land space functioning as carbon sinks.
-]
-]
----
-# Further monitoring
-- A return visit to Shanghai for investigating tree planting using remote sensing.
-
-- Research suggests remote sensing can evaluate carbon sink of forests with proper dataset and methods.
-  - Net Ecosystem Production (NEP)
-  
-  - Biome-BGC model
-  
----
-# Workflow
-
-&lt;img src="img/Workflow2.png" width="180%" style="display: block; margin: auto;" /&gt;
----
-  
-  
----
-
-# Timeline and budget Breakdown
-
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
 
 ---
-# Summary
-.panelset[
-.panel[.panel-name[Background]
+class: center, middle
 
-- Carbon emissions contribute to global warming, greenhouse effect, and sea level rise.
+# xaringan
+
+### /ʃaː.'riŋ.ɡan/
+
+---
+class: inverse, center, middle
+
+# Get Started
+
+---
+
+# Hello World
+
+Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
+
+
+```r
+remotes::install_github("yihui/xaringan")
+```
+
+--
+
+You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
+
+- Create a new R Markdown document from the menu `File -&gt; New File -&gt; R Markdown -&gt; From Template -&gt; Ninja Presentation`;&lt;sup&gt;1&lt;/sup&gt;
+
+--
+
+- Click the `Knit` button to compile it;
+
+--
+
+- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)&lt;sup&gt;2&lt;/sup&gt; "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
+
+.footnote[
+[1] 中文用户请看[这份教程](https://slides.yihui.org/xaringan/zh-CN.html)
+
+[2] See [#2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.
 ]
 
-.panel[.panel-name[Project aim]
-- Carbon detection system
+---
+background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
+background-position: 50% 50%
+class: center, bottom, inverse
 
-  - Detect CO2-density distribution spatially
-  
-  - Identify areas with severe carbon pollution
-  
-- Vegetation suitability assessment system
+# You only live once!
 
-  - Assess Vegetation suitability
-  
-  - Select proper planting vegetation species
-  
-  - Validate the Project
-  
-- Long-term Monitoring System
+---
 
-  - Monitor co2 pollution timely
-  
-  - Monitor vegetation health condition timely
-]
+# Hello Ninja
 
-.panel[.panel-name[Target]
-- Shanghai reach carbon peak in 2030
+As a presentation ninja, you certainly should not be satisfied by the "Hello World" example. You need to understand more about two things:
 
+1. The [remark.js](https://remarkjs.com) library;
 
-- Forest coverage 21%  
-]
-]
+1. The **xaringan** package;
+
+Basically **xaringan** injected the chakra of R Markdown (minus Pandoc) into **remark.js**. The slides are rendered by remark.js in the web browser, and the Markdown source needed by remark.js is generated from R Markdown (**knitr**).
+
+---
+
+# remark.js
+
+You can see an introduction of remark.js from [its homepage](https://remarkjs.com). You should read the [remark.js Wiki](https://github.com/gnab/remark/wiki) at least once to know how to
+
+- create a new slide (Markdown syntax&lt;sup&gt;*&lt;/sup&gt; and slide properties);
+
+- format a slide (e.g. text alignment);
+
+- configure the slideshow;
+
+- and use the presentation (keyboard shortcuts).
+
+It is important to be familiar with remark.js before you can understand the options in **xaringan**.
+
+.footnote[[*] It is different with Pandoc's Markdown! It is limited but should be enough for presentation purposes. Come on... You do not need a slide for the Table of Contents! Well, the Markdown support in remark.js [may be improved](https://github.com/gnab/remark/issues/142) in the future.]
 
 ---
 background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
@@ -338,7 +259,7 @@ plot(cars, pch = 19, col = 'darkgray', las = 1)
 abline(fit, lwd = 2)
 ```
 
-![](Grouppresentation_files/figure-html/cars-1.svg)&lt;!-- --&gt;
+![](ex_files/figure-html/cars-1.svg)&lt;!-- --&gt;
 
 ---
 
@@ -425,8 +346,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0f13242ea9587bfd7aae" style="width:100%;height:432px;"></div>
-<script type="application/json" data-for="htmlwidget-0f13242ea9587bfd7aae">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-e663e097a1b3d709832d" style="width:100%;height:432px;"></div>
+<script type="application/json" data-for="htmlwidget-e663e097a1b3d709832d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -438,8 +359,8 @@ DT::datatable(
 )
 ```
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0b5ef8ce7843daa07ffd" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-0b5ef8ce7843daa07ffd">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-6e88a6299916535d796d" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-6e88a6299916535d796d">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
