@@ -160,15 +160,6 @@ knitr::include_graphics("img/d41586-018-05842-2_15982792.jpg")
 ]
 ]
 ---
-# Further monitoring
-- A return visit to Shanghai for investigating tree planting using remote sensing.
-
-- Research suggests remote sensing can evaluate carbon sink of forests with proper dataset and methods.
-  - Net Ecosystem Production (NEP)
-  
-  - Biome-BGC model
-  
----
 class: center, middle
 background-image: url(img/Workflow2.png)
 background-size: contain
