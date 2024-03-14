@@ -1,6 +1,6 @@
 ---
-title: "Shanghai Carbon sink"
-author: "Jiaming et al." 
+title: "Shanghai Carbon Neutrality"
+author: "Li et al." 
 date: "2024/02/27 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -18,6 +18,7 @@ library(readr)
 library(readxl)
 library(knitr)
 ```
+
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
@@ -150,11 +151,9 @@ knitr::include_graphics("img/d41586-018-05842-2_15982792.jpg")
   - Biome-BGC model
   
 ---
-# Workflow
-
-```{r echo=FALSE, out.width='180%', fig.align='center'}
-knitr::include_graphics("img/Workflow2.png")
-```
+class: center, middle
+background-image: url(img/Workflow2.png)
+background-size: contain
 ---
   
   
@@ -167,8 +166,14 @@ knitr::include_graphics("img/Workflow2.png")
 # Summary
 .panelset[
 .panel[.panel-name[Background]
-
+Background
 - Carbon emissions contribute to global warming, greenhouse effect, and sea level rise.
+
+Target
+- Shanghai reach carbon peak in 2030
+
+
+- Forest coverage 21%  
 ]
 
 .panel[.panel-name[Project aim]
@@ -191,13 +196,6 @@ knitr::include_graphics("img/Workflow2.png")
   - Monitor co2 pollution timely
   
   - Monitor vegetation health condition timely
-]
-
-.panel[.panel-name[Target]
-- Shanghai reach carbon peak in 2030
-
-
-- Forest coverage 21%  
 ]
 ]
 
