@@ -56,6 +56,14 @@ xaringanExtra::use_extra_styles(
   mute_unhighlighted_code = TRUE  
 )
 ```
+# Study area
+More than 90% of the natural disasters experienced in Shanghai are meteorological. The number of days and intensity of heavy precipitation over the next 20 years show an increasing trend.
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics("img/research area.jpg")
+```
+.small[The multi-level, networked and functional urban ecological space system consists of "a double ring, 9 ecological corridors and 10 ecological protection zones".]
+
+---
 # Problem statement
 .panelset[
 .panel[.panel-name[Low-carbon development]
@@ -91,7 +99,7 @@ knitr::include_graphics("img/1990—2015年上海市基于遥感的土地利用�
 
 .panel[.panel-name[Extreme climates]
 .pull-left[
-- Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
+- More than 90% of the natural disasters experienced in Shanghai are meteorological. The number of days and intensity of heavy precipitation over the next 20 years show an increasing trend.
 
 - Continuing sea level rise and upstream flood pressure are posing greater challenges to urban resilience to flooding.
 ]
@@ -108,7 +116,7 @@ knitr::include_graphics("img/11069_2021_4978_Fig6_HTML.jpg")
 .panel[.panel-name[Internationally]
 - The Paris Agreement 
 
-- Goal: ‘to limit the temperature increase to 1.5°C above pre-industrial levels’
+- Goal: **‘to limit the temperature increase to 1.5°C above pre-industrial levels’**
 
 - How: Early achievement of carbon peaking and subsequent carbon neutrality
 
@@ -118,7 +126,7 @@ knitr::include_graphics("img/11069_2021_4978_Fig6_HTML.jpg")
 ]
 
 .panel[.panel-name[Nationally]
-- National Development and Reform Commission
+- **National Development and Reform Commission**
 
 - ‘Peak carbon dioxide emissions by 2030 and work towards carbon neutrality by 2060’
 
@@ -131,15 +139,49 @@ knitr::include_graphics("img/屏幕截图 2024-03-14 095558.jpg")
 ]
 
 .panel[.panel-name[Locally]
-- Shanghai Municipal People's Government: ‘Shanghai Peak Carbon Implementation Programme’
+- Shanghai Municipal People's Government: **‘Shanghai Peak Carbon Implementation Programme’**
 
 - Peak carbon emissions by 2030
 
-- In addition to meeting national targets, reduce carbon dioxide emissions per unit of GDP by 70 % below 2005 levels by 2030
+- In addition to meeting national targets, reduce carbon dioxide emissions per unit of GDP by **70 %** below 2005 levels by 2030
 
-- Other: The forest cover strives to reach 21 per cent and the forest stock reaches about 11 million cubic metres
+- Other: ***The forest cover strives to reach 21 per cent and the forest stock reaches about 11 million cubic metres***
 ]
 ]
+---
+class: center, middle
+background-image: url(img/Workflow1.png)
+background-size: contain
+---
+# Workflow
+
+```{r echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("img/Pollution map.png")
+```
+
+- Provide a guideline for the planting location.
+
+- Prevent unnecessary search and planning blindly.
+---
+# Work flow
+.pull-left[
+```{r echo=FALSE, out.width='150%', fig.align='left'}
+knitr::include_graphics("img/Data specification.png")
+```
+]
+.pull-right[
+- Limit resolution
+
+- Other data is needed to combine with the study.
+
+]
+---
+# Workflow
+Multi Criteria Analysis:
+- Environment
+- Economics
+- Planning
+…
 ---
 # Carbon sink
 .panelset[
@@ -175,24 +217,24 @@ background-size: contain
 # Summary
 .panelset[
 .panel[.panel-name[Background]
-Background
+**Background**
 - Carbon emissions contribute to global warming, greenhouse effect, and sea level rise.
 
-Target
-- Shanghai reach carbon peak in 2030
+**Target**
+- Shanghai reach carbon peak in *2030*
 
 
-- Forest coverage 21%  
+- Forest coverage *21%*  
 ]
 
 .panel[.panel-name[Project aim]
-- Carbon detection system
+- **Carbon detection system**
 
   - Detect CO2-density distribution spatially
   
   - Identify areas with severe carbon pollution
   
-- Vegetation suitability assessment system
+- **Vegetation suitability assessment system**
 
   - Assess Vegetation suitability
   
@@ -200,7 +242,7 @@ Target
   
   - Validate the Project
   
-- Long-term Monitoring System
+- **Long-term Monitoring System**
 
   - Monitor co2 pollution timely
   
