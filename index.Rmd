@@ -57,18 +57,13 @@ xaringanExtra::use_extra_styles(
 )
 ```
 # Study area
-
-
-.center[More than 90% of the natural disasters experienced in Shanghai are meteorological. The number of days and intensity of heavy precipitation over the next 20 years show an increasing trend.]
-
----
-# Study area
-```{r echo=FALSE, out.width='70%', fig.align='center'}
+Mission Need: As one of China's megacities, leading the way in terms of carbon peaking and carbon neutrality targets, initiating the estimation and management of natural carbon stocks is a major endeavour.
+```{r echo=FALSE, out.width='60%', fig.align='center'}
 knitr::include_graphics("img/research area.jpg")
 ```
-The multi-level, networked and functional urban ecological space system consists of "a double ring, 9 ecological corridors and 10 ecological protection zones".
+ "a double ring, 9 ecological corridors and 10 ecological protection zones".
 
-Source: Shanghai Urban Master Plan (2017-2035)
+Source: [Shanghai Urban Master Plan (2017-2035)](https://www.shanghai.gov.cn/newshanghai/xxgkfj/2035001.pdf)
 ---
 # Problem statement
 .panelset[
@@ -77,17 +72,17 @@ Source: Shanghai Urban Master Plan (2017-2035)
 - Energy demand remains high, with continued development needs in the industrial, transport and construction sectors.
 
 - While Shanghai's energy consumption as a percentage of GDP continues to decline, coal still accounts for the largest share of the energy mix.
-
-Image credit：(Li et al. 2017)
 .pull-left[
 ```{r echo=FALSE, out.width='80%', fig.align='left'}
 knitr::include_graphics("img/1-s2.0-S0048969716322008-gr2.jpg")
 ```
+Image credit: [Li et al. 2017](https://doi.org/10.1007/s11069-021-04978-1)
 ]
 .pull-right[
 ```{r echo=FALSE, out.width='80%', fig.align='left'}
 knitr::include_graphics("img/1-s2.0-S0048969716322008-gr4.jpg")
 ```
+Image credit: [Li, Z. et al., 2017.](https://doi.org/10.1007/s11069-021-04978-1)
 ]
 ]
 
@@ -97,13 +92,13 @@ knitr::include_graphics("img/1-s2.0-S0048969716322008-gr4.jpg")
 
 - Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
 
-Source: Shanghai Urban Master Plan (2017-2035)
+Source: [Shanghai Urban Master Plan (2017-2035)](https://ghzyj.sh.gov.cn/cmsres/7a/7aadbed5982b4b79b3343d22b90283c5/0eb1d6b486b06ea9ed60decd246a4ee7.pdf)
 ]
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics("img/1990—2015年上海市基于遥感的土地利用格局.jpg")
 ```
-Image credit：(Liu et al. 2021)
+Image credit：[Liu et al. 2021](https://www.mdpi.com/1999-4907/12/4/476)
 ]
 ]
 
@@ -113,9 +108,9 @@ Image credit：(Liu et al. 2021)
 
 - Continuing sea level rise and upstream flood pressure are posing greater challenges to urban resilience to flooding.
 
-Image credit：(Shan, Yin & Wang 2022)
+Image credit: [Shan, Yin & Wang 2022](https://doi.org/10.1007/s11069-021-04978-1)
 
-Source: Shanghai Emergency Management 14th Five-Year Plan
+Source: [Shanghai Emergency Management 14th Five-Year Plan](https://doi.org/10.1007/s11069-021-04978-1)
 ]
 .pull-right[
 ```{r echo=FALSE, out.width='90%', fig.align='center'}
@@ -138,7 +133,7 @@ knitr::include_graphics("img/11069_2021_4978_Fig6_HTML.jpg")
   
   - Emphasising that the 2030 goal of nationally determined contributions (NDCs) is consistent with the goal of the Paris Agreement
 
-Source:[United Nation. 2015](https://unfccc.int/process-and-meetings/the-paris-agreement)  
+Source: [United Nation. 2015](https://unfccc.int/process-and-meetings/the-paris-agreement)  
 ]
 
 .panel[.panel-name[Nationally]
@@ -151,7 +146,7 @@ Source:[United Nation. 2015](https://unfccc.int/process-and-meetings/the-paris-a
 ```{r echo=FALSE, out.width='150%', fig.align='center'}
 knitr::include_graphics("img/屏幕截图 2024-03-14 095558.jpg")
 ```
-Source:[PRC. 2023](https://www.gov.cn/yaowen/2023-04/06/content_5750183.htm) 
+Source: [PRC. 2023](https://www.gov.cn/yaowen/2023-04/06/content_5750183.htm) 
 ]
 
 .panel[.panel-name[Locally]
@@ -163,9 +158,13 @@ Source:[PRC. 2023](https://www.gov.cn/yaowen/2023-04/06/content_5750183.htm)
 
 - Other: ***The forest cover strives to reach 21 per cent and the forest stock reaches about 11 million cubic metres***
 
-Source:[National Development and Reform Commission. 2022](https://www.ndrc.gov.cn/fggz/hjyzy/tdftzh/202208/t20220808_1332758_ext.html)
+Source: [National Development and Reform Commission. 2022](https://www.ndrc.gov.cn/fggz/hjyzy/tdftzh/202208/t20220808_1332758_ext.html)
 ]
 ]
+---
+class: center, middle
+
+## Workflow
 ---
 class: center, middle
 background-image: url(img/Workflow1.png)
@@ -180,15 +179,15 @@ knitr::include_graphics("img/Pollution map.png")
 
 - Prevent unnecessary search and planning blindly.
 
-Image credit:[Yang et al., 2023](https://link.springer.com/article/10.1007/s00376-022-2237-5)
+Image credit: [Yang et al., 2023](https://link.springer.com/article/10.1007/s00376-022-2237-5)
 ---
-# Work flow
+# Workflow
 .pull-left[
 ```{r echo=FALSE, out.width='150%', fig.align='left'}
 knitr::include_graphics("img/Data specification.png")
 ```
 
-Image credit:[ESA](https://earth.esa.int/eogateway/catalog/tansat-agcs-and-capi-products)
+Image credit: [ESA](https://earth.esa.int/eogateway/catalog/tansat-agcs-and-capi-products)
 ]
 .pull-right[
 - Limit resolution
@@ -198,18 +197,20 @@ Image credit:[ESA](https://earth.esa.int/eogateway/catalog/tansat-agcs-and-capi-
 ]
 ---
 # Workflow
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("img/mca.png")
+```
 Multi Criteria Analysis:
 - Environment
 - Economics
 - Planning
 …
 
-
-```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("img/mca.png")
-```
-
-Source:[Fathizad et al., 2017](https://link.springer.com/article/10.1007/s41324-016-0064-4)
+Source: [Fathizad et al., 2017](https://link.springer.com/article/10.1007/s41324-016-0064-4)
+---
+class: center, middle
+background-image: url(img/Workflow2.png)
+background-size: contain
 ---
 # Carbon sink
 .panelset[
@@ -222,7 +223,7 @@ Source:[Fathizad et al., 2017](https://link.springer.com/article/10.1007/s41324-
 knitr::include_graphics("img/d41586-018-05842-2_15982792.jpg")
 ```
 
-Source:[Ogle, K. 2018](https://www.nature.com/articles/d41586-018-05842-2)
+Source: [Ogle, K. 2018](https://www.nature.com/articles/d41586-018-05842-2)
 ]
 
 .panel[.panel-name[Why tree]
@@ -231,10 +232,6 @@ Source:[Ogle, K. 2018](https://www.nature.com/articles/d41586-018-05842-2)
 - Green spaces serve as the primary land space functioning as carbon sinks.
 ]
 ]
----
-class: center, middle
-background-image: url(img/Workflow2.png)
-background-size: contain
 ---
 # Timeline and budget Breakdown
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -278,4 +275,6 @@ knitr::include_graphics("img/project_Sheet1(3).png")
 ]
 
 ---
+# Reference
 
+---
