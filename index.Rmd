@@ -76,12 +76,14 @@ Source: [Shanghai Urban Master Plan (2017-2035)](https://www.shanghai.gov.cn/new
 ```{r echo=FALSE, out.width='80%', fig.align='left'}
 knitr::include_graphics("img/1-s2.0-S0048969716322008-gr2.jpg")
 ```
+
 Image credit: [Li et al. 2017](https://doi.org/10.1007/s11069-021-04978-1)
 ]
 .pull-right[
 ```{r echo=FALSE, out.width='80%', fig.align='left'}
 knitr::include_graphics("img/1-s2.0-S0048969716322008-gr4.jpg")
 ```
+
 Image credit: [Li, Z. et al., 2017.](https://doi.org/10.1007/s11069-021-04978-1)
 ]
 ]
