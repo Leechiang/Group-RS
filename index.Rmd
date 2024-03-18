@@ -232,6 +232,8 @@ Source: [Ogle, K. 2018](https://www.nature.com/articles/d41586-018-05842-2)
 - Natural carbon sinks crucial for achieving carbon neutrality in China.
 
 - Green spaces serve as the primary land space functioning as carbon sinks.
+
+Source: [Shi, X. et al. (2022b)](https://link.springer.com/article/10.1007/s11356-022-18958-w)
 ]
 ]
 ---
@@ -289,4 +291,8 @@ Fathizad, H., Pakbaz, N., Sodaiezadeh, H. and Shojaei, S., 2017. Exploring canol
 TanSat AGCS and CAPI products (no date) Earth Online. Available at: https://earth.esa.int/eogateway/catalog/tansat-agcs-and-capi-products (Accessed: 11 March 2024). 
 
 Yang, D., Hakkarainen, J., Liu, Y., Ialongo, I., Cai, Z. and Tamminen, J., 2023. Detection of anthropogenic CO2 emission signatures with TanSat CO2 and with Copernicus Sentinel-5 Precursor (S5P) NO2 measurements: first results. 
+---
+# Reference
+
+Shi, X. et al. (2022b) ‘Evaluation of china’s Forest Carbon Sink Service Value’, Environmental Science and Pollution Research, 29(29), pp. 44668–44677. doi:10.1007/s11356-022-18958-w. 
 ---
