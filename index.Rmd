@@ -64,6 +64,7 @@ knitr::include_graphics("img/research area.jpg")
  "a double ring, 9 ecological corridors and 10 ecological protection zones".
 
 Source: [Shanghai Urban Master Plan (2017-2035)](https://www.shanghai.gov.cn/newshanghai/xxgkfj/2035001.pdf)
+Image credit: [Liu et al. 2021](https://www.mdpi.com/1999-4907/12/4/476)
 ---
 # Problem statement
 .panelset[
@@ -93,7 +94,6 @@ Image credit: [Li, Z. et al., 2017.](https://doi.org/10.1007/s11069-021-04978-1)
 - The forest coverage rate reached 15% in 2015, but it is still far from the global urban forest coverage rate of 40%- 60%, and lower than the national average of 22%.
 
 - Urban expansion has led to the fragmentation and reduction of green space, and there is a lack of urban open space, with only 7.6 m2 of parkland per capita.
-
 Source: [Shanghai Urban Master Plan (2017-2035)](https://ghzyj.sh.gov.cn/cmsres/7a/7aadbed5982b4b79b3343d22b90283c5/0eb1d6b486b06ea9ed60decd246a4ee7.pdf)
 ]
 .pull-right[
