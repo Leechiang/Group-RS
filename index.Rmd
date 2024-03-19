@@ -286,13 +286,20 @@ Liu, S. et al., 2021. Spatiotemporal Dynamics of Urban Green Space Influenced by
 
 Shan, X., Yin, J. & Wang, J., 2022. Risk assessment of shanghai extreme flooding under the land use change scenario, Natural Hazards, årg. 110, nr. 2, s. 1039–1060.
 
+The Paris Agreement. Available at: https://unfccc.int/process-and-meetings/the-paris-agreement (Accessed: 26 February 2024).
+
+Implementation by China of the effectiveness of nationally owned contributions and new objectives and initiatives. Available at: https://unfccc.int/sites/default/files/NDC/2022-06/%E4%B8%AD%E5%9B%BD%E8%90%BD%E5%AE%9E%E5%9B%BD%E5%AE%B6%E8%87%AA%E4%B8%BB%E8%B4%A1%E7%8C%AE%E6%88%90%E6%95%88%E5%92%8C%E6%96%B0%E7%9B%AE%E6%A0%87%E6%96%B0%E4%B8%BE%E6%8E%AA.pdf (Accessed: 26 February 2024).
+
+Actively and steadily promoting carbon peaking and carbon neutrality. Available at: https://www.gov.cn/yaowen/2023-04/06/content_5750183.htm (Accessed: 14 March 2024).
+---
+# Reference
+Notice of the Shanghai Municipal People's Government on the Issuance of the Shanghai Peak Carbon Implementation Plan. Available at: https://www.ndrc.gov.cn/fggz/hjyzy/tdftzh/202208/t20220808_1332758_ext.html (Accessed: 1 March 2024).
+
 Fathizad, H., Pakbaz, N., Sodaiezadeh, H. and Shojaei, S., 2017. Exploring canola planting area using AHP associated with GIS in Meymeh–Zarinabad of Iran. Spatial Information Research, 25, pp.371-379.
 
 TanSat AGCS and CAPI products (no date) Earth Online. Available at: https://earth.esa.int/eogateway/catalog/tansat-agcs-and-capi-products (Accessed: 11 March 2024). 
 
 Yang, D., Hakkarainen, J., Liu, Y., Ialongo, I., Cai, Z. and Tamminen, J., 2023. Detection of anthropogenic CO2 emission signatures with TanSat CO2 and with Copernicus Sentinel-5 Precursor (S5P) NO2 measurements: first results. 
----
-# Reference
 
 Shi, X. et al. (2022b) ‘Evaluation of china’s Forest Carbon Sink Service Value’, Environmental Science and Pollution Research, 29(29), pp. 44668–44677. doi:10.1007/s11356-022-18958-w. 
 ---
